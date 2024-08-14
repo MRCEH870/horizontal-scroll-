@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000;
+}
+.content{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    margin: 50px;
+}
+.box{
+    border: 2px solid gold;
+    border-radius: 15px;
+    background-color: #261D3E;
+    margin: 10px;
+}
+.txt{
+    text-align: center;
+    color: red;
+    margin: 5px;
+}
+.img{
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+}
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-track{
+    background: palegreen;
+    margin: 45px;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background: #261D3E;
+    border-radius: 6px;
+}
